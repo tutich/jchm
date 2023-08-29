@@ -8,7 +8,21 @@
 <body>
     <div>
         <img src="https://www.svgrepo.com/show/76811/headphone.svg" alt="headphone">
-        <audio src="" controls></audio>
+        <audio src="" ></audio>
+        <div id="controls">
+            <p id="now">Now playing</p>
+            <div class="wrap">
+            <span>&#9658;</span>
+            <span>&#10074; &#10074;</span>
+            <p>Volume</p>
+            <div id="volume">
+                <span>-</span>
+                <input type="range" min="0" max="4" id="volumeSlider" step="0.01">
+                <span>+</span>
+            </div>
+            </div>
+
+        </div>
         <h2>My Music</h2>
         <div>
             <ol>
